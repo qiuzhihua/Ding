@@ -1,22 +1,26 @@
 //
 //  main.m
-//  CategoryDemo1
+//  CategoryDemo2
 //
 //  Created by qingyun on 14-10-16.
 //  Copyright (c) 2014年 hnqingyun. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
-#import "SomeClass.h"
+#import "QYPerson.h"
+#import "QYPerson+TellID.h"
 
 int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
         
-        SomeClass *sc = [[SomeClass alloc] init];
+        QYPerson *p1 = [[QYPerson alloc] initWithName:@"zhangsan" andIdentify:@"410xxx"];
+        p1.age = 18;
         
-        [sc handleThing1];
+        [p1 whoRU];
+        
+        [p1 tellMeUrID];
         
     }
     return 0;

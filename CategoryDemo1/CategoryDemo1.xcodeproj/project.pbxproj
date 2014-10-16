@@ -11,6 +11,9 @@
 		CC2D32A419EF669F00D464CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2D32A319EF669F00D464CF /* main.m */; };
 		CC2D32A819EF669F00D464CF /* CategoryDemo1.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = CC2D32A719EF669F00D464CF /* CategoryDemo1.1 */; };
 		CC2D32B019EF66AC00D464CF /* SomeClass.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2D32AF19EF66AC00D464CF /* SomeClass.m */; };
+		CC2D32B319EF677C00D464CF /* SomeClass+Thing1.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2D32B219EF677C00D464CF /* SomeClass+Thing1.m */; };
+		CC2D32B619EF678400D464CF /* SomeClass+Thing2.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2D32B519EF678400D464CF /* SomeClass+Thing2.m */; };
+		CC2D32B919EF678A00D464CF /* SomeClass+Thing3.m in Sources */ = {isa = PBXBuildFile; fileRef = CC2D32B819EF678A00D464CF /* SomeClass+Thing3.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +37,9 @@
 		CC2D32A719EF669F00D464CF /* CategoryDemo1.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = CategoryDemo1.1; sourceTree = "<group>"; };
 		CC2D32AE19EF66AC00D464CF /* SomeClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SomeClass.h; sourceTree = "<group>"; };
 		CC2D32AF19EF66AC00D464CF /* SomeClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SomeClass.m; sourceTree = "<group>"; };
+		CC2D32B219EF677C00D464CF /* SomeClass+Thing1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SomeClass+Thing1.m"; sourceTree = "<group>"; };
+		CC2D32B519EF678400D464CF /* SomeClass+Thing2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SomeClass+Thing2.m"; sourceTree = "<group>"; };
+		CC2D32B819EF678A00D464CF /* SomeClass+Thing3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SomeClass+Thing3.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,9 @@
 				CC2D32A319EF669F00D464CF /* main.m */,
 				CC2D32AE19EF66AC00D464CF /* SomeClass.h */,
 				CC2D32AF19EF66AC00D464CF /* SomeClass.m */,
+				CC2D32B219EF677C00D464CF /* SomeClass+Thing1.m */,
+				CC2D32B519EF678400D464CF /* SomeClass+Thing2.m */,
+				CC2D32B819EF678A00D464CF /* SomeClass+Thing3.m */,
 				CC2D32A719EF669F00D464CF /* CategoryDemo1.1 */,
 				CC2D32A519EF669F00D464CF /* Supporting Files */,
 			);
@@ -144,7 +153,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC2D32B319EF677C00D464CF /* SomeClass+Thing1.m in Sources */,
 				CC2D32B019EF66AC00D464CF /* SomeClass.m in Sources */,
+				CC2D32B919EF678A00D464CF /* SomeClass+Thing3.m in Sources */,
+				CC2D32B619EF678400D464CF /* SomeClass+Thing2.m in Sources */,
 				CC2D32A419EF669F00D464CF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

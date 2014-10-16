@@ -21,17 +21,7 @@
 }
 
 
-- (void)handleThing1
-{
-    NSLog(@"thing1: %@", thing1);
-}
-- (void)handleThing2
-{
-    NSLog(@"thing2: %@", thing2);
-}
-- (void)handleThing3
-{
-    NSLog(@"thing3: %@", thing3);
-}
+
+
 
 @end
